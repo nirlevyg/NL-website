@@ -77,39 +77,6 @@ nav {
   color: #7f5af0;
 }
 
-/* FLYING TEXT */
-.flying-text-wrap {
-  width: 100%;
-  overflow: hidden;
-  border-bottom: 1px solid rgba(127, 90, 240, 0.2);
-  background: rgba(127, 90, 240, 0.08);
-}
-
-.flying-text-track {
-  display: flex;
-  width: max-content;
-  gap: 2.5rem;
-  padding: 0.45rem 0;
-  animation: flying-text-loop 14s linear infinite;
-}
-
-.flying-text-item {
-  font-size: 0.95rem;
-  font-weight: 700;
-  color: #5a3fd4;
-  white-space: nowrap;
-  unicode-bidi: isolate;
-}
-
-@keyframes flying-text-loop {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
-}
-
 /* HERO */
 .hero {
   display: flex;
