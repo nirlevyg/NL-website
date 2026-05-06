@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 105" width="320" height="105">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7f5af0"/>
+      <stop offset="100%" stop-color="#2cb67d"/>
+    </linearGradient>
+  </defs>
+  <text x="0" y="68"
+        font-family="Verdana, Geneva, Tahoma, sans-serif"
+        font-size="70" font-weight="800" fill="url(#g)">nl</text>
+  <rect x="0" y="77" width="270" height="1.5" fill="#2cb67d"/>
+  <text x="0" y="96"
+        font-family="Verdana, Geneva, Tahoma, sans-serif"
+        font-size="13" fill="#1a1a3e"
+        letter-spacing="3">fintech advisory</text>
+</svg>
