@@ -363,6 +363,39 @@ button:focus-visible {
   line-height: 1.65;
 }
 
+/* TECHNOLOGY DEPTH STRIP */
+.tech-depth {
+  max-width: 1100px;
+  margin: -2.5rem auto 5rem;
+  padding: 1.2rem 1.5rem;
+  border: 1px solid rgba(127, 90, 240, 0.2);
+  border-radius: 14px;
+  background: linear-gradient(135deg, rgba(127, 90, 240, 0.08), rgba(44, 182, 125, 0.08));
+}
+
+.tech-depth h3 {
+  font-size: 1rem;
+  margin-bottom: 0.9rem;
+  color: #1a1a3e;
+}
+
+.tech-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+}
+
+.tech-pills span {
+  display: inline-block;
+  padding: 0.45rem 0.75rem;
+  border-radius: 999px;
+  border: 1px solid rgba(127, 90, 240, 0.25);
+  background: rgba(255, 255, 255, 0.8);
+  color: #3b3b7a;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
 /* CLIENTS SECTION */
 .clients-section {
   background: rgba(127, 90, 240, 0.04);
@@ -423,5 +456,9 @@ footer {
 
   .about-content {
     grid-template-columns: 1fr;
+  }
+
+  .tech-depth {
+    margin: -2.5rem 2rem 5rem;
   }
 }
